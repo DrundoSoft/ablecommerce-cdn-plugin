@@ -1,0 +1,5 @@
+C:\Home\Projects\DevelProjects\Drundo.CDN\Deployment\Drundo.HttpModule.dll
+C:\Home\Projects\DevelProjects\Drundo.CDN\Deployment\Drundo.HttpModule.pdb
+C:\Home\Projects\DevelProjects\Drundo.CDN\Drundo.HttpModule\obj\Debug\Drundo.HttpModule.dll
+C:\Home\Projects\DevelProjects\Drundo.CDN\Drundo.HttpModule\obj\Debug\Drundo.HttpModule.pdb
+C:\Home\Projects\DevelProjects\Drundo.CDN\Drundo.HttpModule\obj\Debug\Drundo.HttpModule.csprojResolveAssemblyReference.cache

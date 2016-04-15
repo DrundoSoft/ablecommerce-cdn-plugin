@@ -1,0 +1,12 @@
+C:\Home\Projects\DevelProjects\Drundo.CDN\Deployment\Drundo.HttpModule.dll
+C:\Home\Projects\DevelProjects\Drundo.CDN\Deployment\Drundo.HttpModule.pdb
+C:\Home\Projects\DevelProjects\Drundo.CDN\Drundo.HttpModule\obj\Release\Drundo.HttpModule.dll
+C:\Home\Projects\DevelProjects\Drundo.CDN\Drundo.HttpModule\obj\Release\Drundo.HttpModule.pdb
+C:\Home\Projects\DevelProjects\Drundo.CDN\Deployment\Drundo.HttpModule\Drundo.HttpModule.dll
+C:\Home\Projects\DevelProjects\Drundo.CDN\Deployment\Drundo.HttpModule\Drundo.HttpModule.pdb
+C:\Home\Projects\DevelProjects\Drundo.CDN\Drundo.HttpModule\obj\Release\Drundo.HttpModule.csprojResolveAssemblyReference.cache
+C:\Home\Projects\Drundo\Archive\AbleCommerce\Drundo.CDN\Deployment\Drundo.HttpModule\Drundo.HttpModule.dll
+C:\Home\Projects\Drundo\Archive\AbleCommerce\Drundo.CDN\Deployment\Drundo.HttpModule\Drundo.HttpModule.pdb
+C:\Home\Projects\Drundo\Archive\AbleCommerce\Drundo.CDN\Drundo.HttpModule\obj\Release\Drundo.HttpModule.csprojResolveAssemblyReference.cache
+C:\Home\Projects\Drundo\Archive\AbleCommerce\Drundo.CDN\Drundo.HttpModule\obj\Release\Drundo.HttpModule.dll
+C:\Home\Projects\Drundo\Archive\AbleCommerce\Drundo.CDN\Drundo.HttpModule\obj\Release\Drundo.HttpModule.pdb

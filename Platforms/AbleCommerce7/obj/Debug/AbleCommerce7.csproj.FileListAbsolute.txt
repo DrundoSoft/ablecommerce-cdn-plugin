@@ -1,0 +1,8 @@
+C:\Home\Projects\DevelProjects\Drundo.CDN\Platforms\AbleCommerce7\bin\ContentDeliverySettings.aspx
+C:\Home\Projects\DevelProjects\Drundo.CDN\Platforms\AbleCommerce7\bin\ContentDeliverySetup.aspx
+C:\Home\Projects\DevelProjects\Drundo.CDN\Platforms\AbleCommerce7\bin\DrundoHttpModule.config
+C:\Home\Projects\DevelProjects\Drundo.CDN\Platforms\AbleCommerce7\bin\AbleCommerce7.dll
+C:\Home\Projects\DevelProjects\Drundo.CDN\Platforms\AbleCommerce7\bin\AbleCommerce7.pdb
+C:\Home\Projects\DevelProjects\Drundo.CDN\Platforms\AbleCommerce7\obj\Debug\ResolveAssemblyReference.cache
+C:\Home\Projects\DevelProjects\Drundo.CDN\Platforms\AbleCommerce7\obj\Debug\AbleCommerce7.dll
+C:\Home\Projects\DevelProjects\Drundo.CDN\Platforms\AbleCommerce7\obj\Debug\AbleCommerce7.pdb

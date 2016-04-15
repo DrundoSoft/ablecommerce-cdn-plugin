@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2012-10-30T11:55:36.5667479-04:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>C:\Home\Projects\DevelProjects\Drundo.CDN\Deployment</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Drundo.HttpModule.dll">
+      <publishTime>09/30/2012 17:53:57</publishTime>
+    </File>
+    <File Include="Drundo.HttpModule.Publish.xml">
+      <publishTime>10/30/2012 11:55:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

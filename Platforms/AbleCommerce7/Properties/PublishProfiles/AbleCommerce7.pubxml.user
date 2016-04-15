@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2014-05-12T17:52:14.6309063-04:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>C:\Home\Projects\DevelProjects\Drundo.CDN\Deployment\AbleCommerce7</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AbleCommerce7.dll">
+      <publishTime>05/12/2014 17:57:13</publishTime>
+    </File>
+    <File Include="bin/ContentDeliverySettings.aspx">
+      <publishTime>10/30/2012 09:48:53</publishTime>
+    </File>
+    <File Include="bin/ContentDeliverySetup.aspx">
+      <publishTime>10/30/2012 11:55:25</publishTime>
+    </File>
+    <File Include="bin/DrundoHttpModule.config">
+      <publishTime>05/09/2014 16:57:45</publishTime>
+    </File>
+    <File Include="ContentDeliverySettings.aspx">
+      <publishTime>10/30/2012 09:48:53</publishTime>
+    </File>
+    <File Include="ContentDeliverySetup.aspx">
+      <publishTime>10/30/2012 11:55:25</publishTime>
+    </File>
+    <File Include="DrundoHttpModule.config">
+      <publishTime>05/09/2014 16:57:45</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/12/2014 17:57:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

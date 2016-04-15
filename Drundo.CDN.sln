@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{3BCCE3FA-DD68-466E-8F6B-ABF146B47762}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{5A5FADA1-69EF-4161-B701-79F55EDD6203}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbleCommerce", "AbleCommerce", "{ADB32489-8864-4DC8-BA8E-D8DCDE3EEF4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drundo.HttpModule", "Drundo.HttpModule\Drundo.HttpModule.csproj", "{10D4621A-AC6A-4997-B4F8-1E6B9DF25BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbleCommerce7", "Platforms\AbleCommerce7\AbleCommerce7.csproj", "{79BC609C-E9D0-450A-861E-09583C588214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbleCommerceGold", "Platforms\AbleCommerceGold\AbleCommerceGold.csproj", "{3D2A9FE7-ACEE-43D6-BE1E-4D491921CD1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10D4621A-AC6A-4997-B4F8-1E6B9DF25BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D4621A-AC6A-4997-B4F8-1E6B9DF25BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D4621A-AC6A-4997-B4F8-1E6B9DF25BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D4621A-AC6A-4997-B4F8-1E6B9DF25BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79BC609C-E9D0-450A-861E-09583C588214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79BC609C-E9D0-450A-861E-09583C588214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79BC609C-E9D0-450A-861E-09583C588214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79BC609C-E9D0-450A-861E-09583C588214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2A9FE7-ACEE-43D6-BE1E-4D491921CD1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2A9FE7-ACEE-43D6-BE1E-4D491921CD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2A9FE7-ACEE-43D6-BE1E-4D491921CD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2A9FE7-ACEE-43D6-BE1E-4D491921CD1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADB32489-8864-4DC8-BA8E-D8DCDE3EEF4C} = {5A5FADA1-69EF-4161-B701-79F55EDD6203}
+		{10D4621A-AC6A-4997-B4F8-1E6B9DF25BC7} = {3BCCE3FA-DD68-466E-8F6B-ABF146B47762}
+		{79BC609C-E9D0-450A-861E-09583C588214} = {ADB32489-8864-4DC8-BA8E-D8DCDE3EEF4C}
+		{3D2A9FE7-ACEE-43D6-BE1E-4D491921CD1D} = {ADB32489-8864-4DC8-BA8E-D8DCDE3EEF4C}
+	EndGlobalSection
+EndGlobal

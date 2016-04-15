@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Home\Projects\DevelProjects\Drundo.CDN\Deployment" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="AbleCommerce7" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/ContentDeliverySetup.aspx" publishTime="10/30/2012 11:55:25" />
+    <file relUrl="ContentDeliverySettings.aspx" publishTime="10/30/2012 09:48:53" />
+    <file relUrl="bin/ContentDeliverySettings.aspx" publishTime="10/30/2012 09:48:53" />
+    <file relUrl="Web.config" publishTime="10/18/2012 18:54:42" />
+    <file relUrl="bin/AbleCommerce7.pdb" publishTime="10/18/2012 18:56:14" />
+    <file relUrl="bin/AbleCommerce7.dll" publishTime="10/18/2012 18:56:14" />
+    <file relUrl="bin/DrundoHttpModule.config" publishTime="10/27/2012 16:27:53" />
+    <file relUrl="ContentDeliverySetup.aspx" publishTime="10/30/2012 11:55:25" />
+    <file relUrl="DrundoHttpModule.config" publishTime="10/27/2012 16:27:53" />
+  </publishProfile>
+</publishData>
