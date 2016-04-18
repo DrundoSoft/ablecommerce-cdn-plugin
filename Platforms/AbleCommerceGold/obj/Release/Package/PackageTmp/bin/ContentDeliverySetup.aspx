@@ -6,14 +6,16 @@
 <%@ Import Namespace="System.Security.Principal" %>
 <%@ Import Namespace="System.Security.AccessControl" %>
 
+<%@ Import Namespace="CommerceBuilder.Common" %>
 <%@ Import Namespace="CommerceBuilder.Utility" %>
+<%@ Import Namespace="CommerceBuilder.Users" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <script runat="server">
     private string _AcVersion = "7";
     private const string _ProductVersion = "1.0.1.051214";
-    private const string _ProductUrl = "http://cdn.drundo.com/products/drundocdn/ablecommercegold";
+    private const string _ProductUrl = "http://dscdn-net-repository.s3.amazonaws.com/products/drundocdn/ablecommercegold/";
     private const string _ManagementUrl = "/admin/store/";
     private const string _ProductFolder1 = "\\bin\\";
     private const string _ProductFolder2 = "\\App_Data\\";
@@ -53,6 +55,11 @@
     /// <param name="e"></param>
     protected void Page_Load(object sender, EventArgs e)
     {
+        if(!AbleContext.Current.User.IsInRole(Role.AdminRoles))
+        {
+          Page.Response.Redirect("/admin/login.aspx?ReturnUrl=%2fcontentdeliverysetup.aspx");
+        }
+    
         if (!Page.IsPostBack)
         {
             string domain = Request.Url.Authority;
@@ -428,6 +435,7 @@
                             </div>
                         </div>
                     </asp:Panel>
+
                 </ContentTemplate>
             </asp:UpdatePanel>
         </div>

@@ -6,35 +6,35 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Home\Projects\DevelProjects\Drundo.CDN\Deployment\AbleCommerce Gold</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Home\Projects\ablecommerce-cdn-plugin.git\ablecommerce-cdn-plugin\Deployment\AbleCommerce Gold</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/AbleCommerceGold.dll">
-      <publishTime>05/12/2014 18:04:27</publishTime>
+      <publishTime>04/15/2016 16:22:05</publishTime>
     </File>
     <File Include="bin/ContentDeliverySettings.aspx">
-      <publishTime>05/12/2014 17:36:32</publishTime>
+      <publishTime>04/18/2016 11:23:02</publishTime>
     </File>
     <File Include="bin/ContentDeliverySetup.aspx">
-      <publishTime>05/12/2014 18:16:54</publishTime>
+      <publishTime>04/18/2016 11:19:43</publishTime>
     </File>
     <File Include="bin/Drundo.HttpModule.dll">
-      <publishTime>05/12/2014 17:49:34</publishTime>
+      <publishTime>04/14/2016 13:59:54</publishTime>
     </File>
     <File Include="bin/DrundoHttpModule.config">
-      <publishTime>05/12/2014 17:30:15</publishTime>
+      <publishTime>04/18/2016 11:19:59</publishTime>
     </File>
     <File Include="ContentDeliverySettings.aspx">
-      <publishTime>05/12/2014 17:36:32</publishTime>
+      <publishTime>04/18/2016 11:23:02</publishTime>
     </File>
     <File Include="ContentDeliverySetup.aspx">
-      <publishTime>05/12/2014 18:16:54</publishTime>
+      <publishTime>04/18/2016 11:19:43</publishTime>
     </File>
     <File Include="DrundoHttpModule.config">
-      <publishTime>05/12/2014 17:30:15</publishTime>
+      <publishTime>04/18/2016 11:19:59</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/12/2014 18:04:27</publishTime>
+      <publishTime>04/18/2016 11:25:01</publishTime>
     </File>
   </ItemGroup>
 </Project>

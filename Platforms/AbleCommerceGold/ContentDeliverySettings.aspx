@@ -23,13 +23,13 @@
             {
                 _MessagePanel.Visible = false;
             }
-            
+
             string configFilepath = GetConfigFilePath();
             DrundoHttpModuleConfig config = DrundoHttpModuleConfig.Deserialize(configFilepath);
 
             _CDNUrlTextBox.Text = config.CdnUrlName;
             _EnableCDNCheckbox.Checked = config.IsEnabled;
-            _EnableCSSCheckBox.Checked = config.IsScriptEnabled;
+            <%--_EnableCSSCheckBox.Checked = config.IsScriptEnabled;--%>
             _EnableSSLSupportCheckBox.Checked = config.IsSecure;
         }
     }
@@ -45,7 +45,7 @@
         config.CdnUrlName = _CDNUrlTextBox.Text;
         config.IsSecure = _EnableSSLSupportCheckBox.Checked;
         config.IsEnabled = _EnableCDNCheckbox.Checked;
-        config.IsScriptEnabled = _EnableCSSCheckBox.Checked;
+        <%--config.IsScriptEnabled = _EnableCSSCheckBox.Checked;--%>
 
         DrundoHttpModuleConfig.Serialize(configFilePath, config);
     }
@@ -71,7 +71,7 @@
     protected void CDNUrlTextBox_OnTextChanged(object sender, EventArgs e)
     {
         string urlPrefix = "http://";
-    
+
         if (_EnableSSLSupportCheckBox.Checked)
             urlPrefix = "https://";
 
@@ -113,8 +113,8 @@
 		                <table class="inputForm">
                             <tr>
                                 <th class="rowHeader" style="vertical-align:top;">
-                                    <cb:ToolTipLabel ID="EnabledLabel" runat="server" 
-                                        Text="Enable CDN:" AssociatedControlID="_EnableCDNCheckbox" 
+                                    <cb:ToolTipLabel ID="EnabledLabel" runat="server"
+                                        Text="Enable CDN:" AssociatedControlID="_EnableCDNCheckbox"
                                         ToolTip="Indicates whether the content delivery network feature is enabled for the store."
                                     />
                                 </th>
@@ -125,13 +125,13 @@
                             <tr>
                                 <th class="rowHeader">
                                     <cb:ToolTipLabel ID="CDNUrlLabel" runat="server" AssociatedControlID="_CdnUrlTextBox"
-                                        Text="Content Delivery Url:" 
-                                        ToolTip="Enter Content Delivery Url provided by your CDN provider." 
+                                        Text="Content Delivery Url:"
+                                        ToolTip="Enter Content Delivery Url provided by your CDN provider."
                                     />
                                 </th>
                                 <td>
                                     <asp:TextBox ID="_CDNUrlTextBox" runat="server"  Width="320px" AutoPostBack="True" ClientIDMode="Inherit" OnTextChanged="CDNUrlTextBox_OnTextChanged" ></asp:TextBox>
-                                    <span style="font-style:italic; margin-left: 10px;">Example: dwerojsngq223w.cloudfront.net </span> 
+                                    <span style="font-style:italic; margin-left: 10px;">Example: dwerojsngq223w.cloudfront.net </span>
                                 </td>
                                 <td>
                                     <asp:RequiredFieldValidator id="RequiredFieldValidator" ControlToValidate="_CDNUrlTextBox" ErrorMessage="Content Delivery Url is a requried field." Display="Static" Width="100%" runat="server">*</asp:RequiredFieldValidator>
@@ -140,17 +140,17 @@
                             <tr>
                                 <th class="rowHeader">
                                     <cb:ToolTipLabel ID="EnableSSLSupportLabel" runat="server" AssociatedControlID="_EnableSSLSupportCheckBox"
-                                        Text="Enable Https Support" 
-                                        ToolTip="Indicates whether a secure socket layer (SSL) is available with your CDN provider. Check this box if your CDN provider supports https requests." 
+                                        Text="Enable Https Support"
+                                        ToolTip="Indicates whether a secure socket layer (SSL) is available with your CDN provider. Check this box if your CDN provider supports https requests."
                                     />
                                 </th>
                                 <td>
                                     <asp:CheckBox ID="_EnableSSLSupportCheckBox" runat="server" Checked="false" />
                                 </td>
                             </tr>
-                            <tr>
+<%--                            <tr>
                                 <th class="rowHeader">
-                                    <cb:ToolTipLabel ID="EnableCSSLabel" runat="server"  AssociatedControlID="_EnableCSSCheckBox" 
+                                    <cb:ToolTipLabel ID="EnableCSSLabel" runat="server"  AssociatedControlID="_EnableCSSCheckBox"
                                         Text="Enable CDN for .CSS and JavaScript files"
                                         ToolTip="If checked all site .css and external JavaScript files will be delivered trough CDN. Enable this option only if your CDN provider supports https connections."
                                     />
@@ -158,7 +158,7 @@
                                 <td>
                                     <asp:CheckBox ID="_EnableCSSCheckBox" runat="server" Checked="false" />
                                 </td>
-                            </tr>
+                            </tr>--%>
                             <asp:Panel ID="_MessagePanel" runat="server" Visible="false">
                                 <tr>
                                     <td colspan="2">

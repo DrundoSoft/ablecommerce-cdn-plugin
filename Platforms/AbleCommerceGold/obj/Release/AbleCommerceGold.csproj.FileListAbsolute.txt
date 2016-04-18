@@ -16,3 +16,12 @@ C:\Home\Projects\ablecommerce-cdn-plugin.git\Deployment\AbleCommerce7\AbleCommer
 C:\Home\Projects\ablecommerce-cdn-plugin.git\Platforms\AbleCommerceGold\obj\Release\AbleCommerceGold.csprojResolveAssemblyReference.cache
 C:\Home\Projects\ablecommerce-cdn-plugin.git\Platforms\AbleCommerceGold\obj\Release\AbleCommerceGold.dll
 C:\Home\Projects\ablecommerce-cdn-plugin.git\Platforms\AbleCommerceGold\obj\Release\AbleCommerceGold.pdb
+C:\Home\Projects\ablecommerce-cdn-plugin.git\ablecommerce-cdn-plugin\Deployment\AbleCommerce7\ContentDeliverySettings.aspx
+C:\Home\Projects\ablecommerce-cdn-plugin.git\ablecommerce-cdn-plugin\Deployment\AbleCommerce7\ContentDeliverySetup.aspx
+C:\Home\Projects\ablecommerce-cdn-plugin.git\ablecommerce-cdn-plugin\Deployment\AbleCommerce7\DrundoHttpModule.config
+C:\Home\Projects\ablecommerce-cdn-plugin.git\ablecommerce-cdn-plugin\Deployment\AbleCommerce7\AbleCommerceGold.dll.config
+C:\Home\Projects\ablecommerce-cdn-plugin.git\ablecommerce-cdn-plugin\Deployment\AbleCommerce7\AbleCommerceGold.dll
+C:\Home\Projects\ablecommerce-cdn-plugin.git\ablecommerce-cdn-plugin\Deployment\AbleCommerce7\AbleCommerceGold.pdb
+C:\Home\Projects\ablecommerce-cdn-plugin.git\ablecommerce-cdn-plugin\Platforms\AbleCommerceGold\obj\Release\AbleCommerceGold.csprojResolveAssemblyReference.cache
+C:\Home\Projects\ablecommerce-cdn-plugin.git\ablecommerce-cdn-plugin\Platforms\AbleCommerceGold\obj\Release\AbleCommerceGold.dll
+C:\Home\Projects\ablecommerce-cdn-plugin.git\ablecommerce-cdn-plugin\Platforms\AbleCommerceGold\obj\Release\AbleCommerceGold.pdb
