@@ -1,5 +1,5 @@
 # ablecommerce-cdn-plugin
-AbleCommerce Gold CDN Plugin (Free Installation Package is available at: http://www.drundo.com/ablecommerce#cdn
+AbleCommerce Gold CDN Plugin (Free Installation Package is available at: http://www.drundo.com/ablecommerce#cdn )
 
 CDN stands for Content Delivery Network or Content Distribution Network. Basically, it’s a bunch of highly optimized servers all across the world, with a bit of unique logic worked into them: you’ll always hit the server that’s closest to you. This leads to huge performance improvements for AbleCommerce sites that have product category pages with a lot of images.
 
